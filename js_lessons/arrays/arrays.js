@@ -1,4 +1,4 @@
-//arrau is range of
+//array is range of
 let myArr = ['El1', 'El2', 'El3']
 
 //we can add all data types
