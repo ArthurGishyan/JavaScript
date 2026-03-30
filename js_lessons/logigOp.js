@@ -14,5 +14,13 @@ console.log(a && b);
 console.log(!a); //false
 
 //?? it will take b if a is undefined or null
-let name = null;
+let name = false;
 console.log(name ?? 'guest'); //guest
+
+//nullsh operator
+null ?? a
+//return a
+undefined ?? a
+//return a
+// else 
+//     first value
