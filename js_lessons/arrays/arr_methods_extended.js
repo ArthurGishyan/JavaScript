@@ -61,3 +61,24 @@ console.log(filtherTest.filter(num => num > 3)); //[4,5]
 let mapTest = [1,2,3]
 let mappedArr = mapTest.map((number, index) => console.log(`number is ${number}, index is ${index}`));
 
+//reduce map slice split concat push pop flat every
+
+//flat
+let flatTest  = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+let newFlatT = flatTest.flat()
+
+console.log(newFlatT);
+
+let everyTest = [1,2,3,4,5,6]
+
+if (everyTest.every(el => el % 2 === 0)) {
+    true
+} else if (everyTest.some(el => el % 2 === 0)) {
+    console.log('sth');
+    
+}
