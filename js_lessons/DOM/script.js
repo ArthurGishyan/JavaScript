@@ -31,8 +31,18 @@ btnFunct.addEventListener("click", ()=> {
 
   boxFunct.style.backgroundColor = colorArr[Math.floor(Math.random() * colorArr.length)];
   if(numberArr[index]) document.getElementById("show_num").innerHTML = numberArr[index];
-  else document.getElementById("show_num").innerHTML = 'esh'
+  else document.getElementById("show_num").innerHTML = 'sth'
 })
 
+btnFunct.addEventListener("mouseover", ()=> {
+  boxFunct.style.width = "1000px"
+  boxFunct.style.height = "1000px"
+})
+btnFunct.addEventListener("mouseout", ()=> {
+  boxFunct.style.width = "100px"
+  boxFunct.style.height = "100px"
+})
 
-
+function colorChange() {
+  body.backgroundColor = "red"
+}
