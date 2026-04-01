@@ -42,7 +42,6 @@ btnFunct.addEventListener("mouseout", ()=> {
   boxFunct.style.width = "100px"
   boxFunct.style.height = "100px"
 })
-
-function colorChange() {
+btnFunct.addEventListener("click", ()=> {
   body.backgroundColor = "red"
-}
+})
